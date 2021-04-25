@@ -1,0 +1,211 @@
+/* *{} controls the styling of entire webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* body{} controls the styling of the body element of the webpage */
+body {
+    background-color: #d9dcd6;
+}
+/* header{} controls the styling of the header element of the webpage */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Controls the styling of the H1 in the header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Controls the styling of Class Seo */
+.seo {
+    color: #d9dcd6;
+}
+/*Controls styling of the Nav section of the HTML file. Because we only had 
+one Nav section in the entire HTML, it was not necessary to point the 
+pre-req sections of the nav element */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Controls the styling of the Unordered list of the elements*/
+header nav ul {
+    list-style-type: none;
+}
+/* Controls the styling of the Ordered List of the elements */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Controls the styling of the Anchors in the HTML file */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Controls the styling of the Paragraphs in the HTML file */
+p {
+    font-size: 16px;
+}
+/* Controls the styling of Class Hero */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* Controls the styling of Class Float-Left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Controls the styling of Class Float-Right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Controls the styling of Class Content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Controls the styling of Class Benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Controls the styling of Class Benefit-Lead */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Controls the styling of Class Benefit-Brand */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Controls the styling of Class Benefit-cost */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Controls the styling of Class Benefit-Lead Header 3 (H3) */
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Controls the styling of Class Benefit-Brand Header 3 (H3) */
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Controls the styling of Class Benefit-Cost Header 3 (H3) */
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Controls the styling of Class Benefit-Lead IMG */
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Controls the styling of Class Benefit-Brand IMG */
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Controls the styling of Class Benefit-Cost IMG */
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Controls the styling of Class Search-Engine-Optimization */
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Controls the styling of Class Online-Reputation-Management */
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Controls the styling of Class Social-Media-Marketing */
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
